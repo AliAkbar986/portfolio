@@ -1,0 +1,34 @@
+
+[1m[46m RUN [49m[22m [36mv4.0.13 [39m[90m/Users/aliakbar/Documents/anti-grevity-ai[39m
+
+ [31m❯[39m src/App.test.jsx [2m([22m[2m2 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[32m 272[2mms[22m[39m
+[31m     [31m×[31m renders the hero section with name[39m[32m 162[2mms[22m[39m
+[31m     [31m×[31m renders the skills section[39m[32m 109[2mms[22m[39m
+
+[31m⎯⎯⎯⎯⎯⎯⎯[39m[1m[41m Failed Tests 2 [49m[22m[31m⎯⎯⎯⎯⎯⎯⎯[39m
+
+[41m[1m FAIL [22m[49m src/App.test.jsx[2m > [22mApp[2m > [22mrenders the hero section with name
+[41m[1m FAIL [22m[49m src/App.test.jsx[2m > [22mApp[2m > [22mrenders the skills section
+[31m[1mError[22m: A React Element from an older version of React was rendered. This is not supported. It can happen if:
+- Multiple copies of the "react" package is used.
+- A library pre-bundled an old copy of "react" or "react/jsx-runtime".
+- A compiler tries to "inline" JSX instead of using the runtime.[39m
+[90m [2m❯[22m throwOnInvalidObjectTypeImpl node_modules/react-dom/cjs/react-dom-client.development.js:[2m6095:15[22m[39m
+[90m [2m❯[22m throwOnInvalidObjectType node_modules/react-dom/cjs/react-dom-client.development.js:[2m6113:11[22m[39m
+[90m [2m❯[22m reconcileChildFibersImpl node_modules/react-dom/cjs/react-dom-client.development.js:[2m7058:11[22m[39m
+[90m [2m❯[22m node_modules/react-dom/cjs/react-dom-client.development.js:[2m7098:33[22m[39m
+[90m [2m❯[22m reconcileChildren node_modules/react-dom/cjs/react-dom-client.development.js:[2m9701:13[22m[39m
+[90m [2m❯[22m updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:[2m10182:7[22m[39m
+[90m [2m❯[22m beginWork node_modules/react-dom/cjs/react-dom-client.development.js:[2m11778:18[22m[39m
+[90m [2m❯[22m runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:[2m874:13[22m[39m
+[90m [2m❯[22m performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:[2m17641:22[22m[39m
+[90m [2m❯[22m workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:[2m17469:41[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯[22m[39m
+
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[31m2 failed[39m[22m[90m (2)[39m
+[2m   Start at [22m 23:38:59
+[2m   Duration [22m 898ms[2m (transform 68ms, setup 37ms, collect 234ms, tests 272ms, environment 291ms, prepare 4ms)[22m
+
